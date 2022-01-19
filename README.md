@@ -6,6 +6,10 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 [OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=6THCQG_G6ZkQQPwJY1_lCD8DiXCrBjJoev3yKqFu5kY&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1642527123742&u=senecacollege)
 ## Recordings of Previous Sessions
 
+- [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
+- [Jan 18 - Week 2](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642527123852/capture/)
+
+
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|-----|-----|-----|------|------|
