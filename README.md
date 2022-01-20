@@ -3,7 +3,7 @@
 You are welcome to Fardad's classes as a guest by **using your real Seneca Name** (what is on your student card, otherwise you will be kicked out).
 
 Click on the link below to join: (See [my schedule](#fardads-schedule) for lecture times)<br />
-[OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=6THCQG_G6ZkQQPwJY1_lCD8DiXCrBjJoev3yKqFu5kY&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1642527123742&u=senecacollege)
+[OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=krpCRHt9b6261hQyjw5JDSiI39dTApQdisjNkMHxunI&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1642703198790&u=senecacollege)
 ## Recordings of Previous Sessions
 
 - [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
@@ -16,8 +16,8 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 | 1      | 8:00-8:50   |     |     |     |      |  OOP244 NAA (Lecture)    |
 | 2      | 8:55-9:45   |  DEV   |     |     |      |  OOP244 NAA (Lecture)    |
 | 3      | 9:50-10:40  |  DEV   |     |     |  OOP244 NBB (Lecture)    |      |
-| 4      | 10:45-11:35 |  DEV   |  OOP244 NBB (Lecture/Q&A)   |  [Office]()   |  OOP244 NBB (Lecture)   |      |
-| 5      | 11:40-12:30 |  DEV   |  OOP244 NBB (Lecture/Q&A)   |   [Office]()  |      |      |
+| 4      | 10:45-11:35 |  DEV   |  OOP244 NBB (Lecture/Q&A)   |  [Office](https://teams.microsoft.com/l/channel/19%3a1VI9MO-8uyVtcYxnoBrety2uH08ZyTuF-pf-Euk1LKw1%40thread.tacv2/General?groupId=f42ee11d-17c8-4e77-9daf-5e9bd4556634&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)   |  OOP244 NBB (Lecture)   |      |
+| 5      | 11:40-12:30 |  DEV   |  OOP244 NBB (Lecture/Q&A)   |   [Office](https://teams.microsoft.com/l/channel/19%3a1VI9MO-8uyVtcYxnoBrety2uH08ZyTuF-pf-Euk1LKw1%40thread.tacv2/General?groupId=f42ee11d-17c8-4e77-9daf-5e9bd4556634&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  |      |      |
 | 6      | 12:35-13:25 |  DEV   |  OOP345 NBB (Lecture/Q&A)   |  OOP244 NAA (Lecture/Q&A)   |      |      |
 | 7      | 13:30-14:20 |  DEV   |  OOP345 NBB (Lecture/Q&A)   |  OOP244 NAA (Lecture/Q&A)   |  OOP345 NBB (Lecture)    |      |
 | 8      | 14:25-15:15 |  DEV   |     |     |  OOP345 NBB (Lecture)    |      |
