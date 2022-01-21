@@ -8,7 +8,7 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 
 - [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
 - [Jan 18 - Week 2](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642527123852/capture/)
-- [Jan 20 = Week 2 continued](https://youtu.be/rwljFwL2aRM)
+- [Jan 20 - Week 2 continued](https://youtu.be/rwljFwL2aRM)
 
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
