@@ -93,12 +93,13 @@ public:
       tracer << "Remove " << m_value << " from memory" << nl;
       delete[] m_value;
    }
-   ostream& print(ostream& os=cout)const {
+   ostream& print(ostream& os = cout)const {
       return os << (m_value ? m_value : "(Nullstr)");
    }
-   istream& read(istream& id=cin) {
+   istream& read(istream& is = cin) {
       delete[] m_value;
-      m_value = Cstr::read(is)
+      m_value = Cstr::read(is);
+      return is;
    }
 };
 
@@ -111,14 +112,22 @@ istream& operator>> (istream& is, Name& N) {
 
 int main() {
    Name A;
-   //tracer.trace(true);
+   tracer.trace(true);
    cout << "Name: ";
    tracer << "cin >> A;" << nl;
    cin >> A;
    cout << "Hello " << A << endl;
    tracer << "Name B = A;" << nl;
    Name B = A;
-   cout << B << endl;
+   cout << "B: " << B << endl;
+   tracer << "A = \"Jack\";" << nl;
+   A = "Jack";
+   cout << "A: " << A << endl;
+   tracer << "A = B;" << nl;
+   A = B;
+   cout << "A: " << A << endl;
+   cout << "B: " << B << endl;
+
    return 0;
 }
 

@@ -81,6 +81,19 @@ public:
       tracer << "Copy " << N.m_value << nl << "  using: ";
       operator=(N);
    }
+   Name(Name&& N) {  // move copyconstructor
+      tracer << "(move copy) Take ownership of " << N.m_value << " in a new Name" << nl << "  by calling: ";
+      operator=(move(N));
+   }
+   Name& operator=(Name&& N) { // move assignment 
+      if (this != &N) {
+         tracer << " Move assign " << N.m_value << " into " << m_value << " by assignment" << nl;
+         delete[] m_value;
+         m_value = N.m_value;
+         N.m_value = nullptr;
+      }
+      return *this;
+   }
    Name& operator=(const Name& N) {
       if (this != &N) {
          tracer << "Assign " << m_value << " to " << N.m_value << nl;
@@ -93,12 +106,13 @@ public:
       tracer << "Remove " << m_value << " from memory" << nl;
       delete[] m_value;
    }
-   ostream& print(ostream& os=cout)const {
+   ostream& print(ostream& os = cout)const {
       return os << (m_value ? m_value : "(Nullstr)");
    }
-   istream& read(istream& id=cin) {
+   istream& read(istream& is = cin) {
       delete[] m_value;
-      m_value = Cstr::read(is)
+      m_value = Cstr::read(is);
+      return is;
    }
 };
 
@@ -111,14 +125,22 @@ istream& operator>> (istream& is, Name& N) {
 
 int main() {
    Name A;
-   //tracer.trace(true);
+   tracer.trace(true);
    cout << "Name: ";
    tracer << "cin >> A;" << nl;
    cin >> A;
    cout << "Hello " << A << endl;
    tracer << "Name B = A;" << nl;
-   Name B = A;
-   cout << B << endl;
+   Name B = move(A);
+   cout << "B: " << B << endl;
+   tracer << "A = \"Jack\";" << nl;
+   A = "Jack";
+   cout << "A: " << A << endl;
+   tracer << "A = B;" << nl;
+   A = move(B);
+   cout << "A: " << A << endl;
+   cout << "B: " << B << endl;
+
    return 0;
 }
 

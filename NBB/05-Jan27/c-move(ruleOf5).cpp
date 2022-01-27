@@ -25,12 +25,11 @@ public:
       return *this;
    }
 } tracer;
-
-constexpr int ReadBufferSize = 80;
+constexpr int ReadBufferSize = 50;
 class Cstr {
 public:
    static void cpy(char* des, const char* src) {
-      while (*des++ = *src++); // strcpy (fix for gcc on linux)
+      while (*des++ = *src++); // strcpy (fix for gcc on linux
    }
    static int len(const char* str) {
       const char* end = str;
@@ -66,19 +65,18 @@ public:
    }
 
 };
-
 class Name {
 private:
-   char* m_value{};
+   char* m_value = nullptr;
 public:
    Name(const char* value = nullptr) {
       if (value) {
          Cstr::allocNcpy(m_value, value);
       }
-      tracer << "Create " << m_value << nl;
+      tracer << "Creat " << m_value << nl;
    }
    Name(const Name& N) {
-      tracer << "Copy " << N.m_value << nl << "  using: ";
+      tracer << "Copy " << N.m_value << nl << "   by calling: ";
       operator=(N);
    }
    Name& operator=(const Name& N) {
@@ -89,19 +87,32 @@ public:
       }
       return *this;
    }
+   Name& operator=(Name&& N) {
+      if (this != &N) {
+         tracer << " Move assign " << N.m_value << " into " << m_value << " by assignment" << nl;
+         delete[] m_value;
+         m_value = N.m_value;
+         N.m_value = nullptr;
+      }
+      return *this;
+   }
+   Name(Name&& N) {
+      tracer << "(Move const), Take ownership of " << N.m_value << " in a new Name" << nl << "  by calling: ";
+      operator=(move(N));
+   }
+   ostream& print(ostream& os)const {
+      return os << (m_value ? m_value : "(NULLstr)");
+   }
+   istream& read(istream& is) {
+      delete[] m_value;
+      m_value = Cstr::read(is);
+      return is;
+   }
    ~Name() {
-      tracer << "Remove " << m_value << " from memory" << nl;
+      tracer << "Remove " << (m_value ? m_value : "(NULLstr)") << " from memory" << nl;
       delete[] m_value;
-   }
-   ostream& print(ostream& os=cout)const {
-      return os << (m_value ? m_value : "(Nullstr)");
-   }
-   istream& read(istream& id=cin) {
-      delete[] m_value;
-      m_value = Cstr::read(is)
    }
 };
-
 ostream& operator<< (ostream& os, const Name& N) {
    return N.print(os);
 }
@@ -110,15 +121,23 @@ istream& operator>> (istream& is, Name& N) {
 }
 
 int main() {
+   tracer.trace(true);
    Name A;
-   //tracer.trace(true);
-   cout << "Name: ";
+   cout << "who are you? " << endl;
    tracer << "cin >> A;" << nl;
    cin >> A;
-   cout << "Hello " << A << endl;
-   tracer << "Name B = A;" << nl;
-   Name B = A;
-   cout << B << endl;
+   cout << "hello " << A << endl;
+   tracer << "Name B = move(A);" << nl;
+   Name B = move(A);
+   cout << "A: " << A << endl;
+   cout << "B: " << B << endl;
+   tracer << "A = B;" << nl;
+   A = B;
+   cout << "A: " << A << endl;
+   cout << "B: " << B << endl;
+   tracer << "A = move(B);" << nl;
+   A = move(B);
+   cout << "A: " << A << endl;
+   cout << "B: " << B << endl;
    return 0;
 }
-
