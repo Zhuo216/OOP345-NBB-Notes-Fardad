@@ -9,6 +9,8 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 - [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
 - [Jan 18 - Week 2](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642527123852/capture/)
 - [Jan 20 - Week 2 continued](https://youtu.be/rwljFwL2aRM)
+- [Jan 25 - Classes and Scoped Enumerations and moving](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643132193026/capture/)
+- [Jan 27 - Inheritance and Inclusion Polymorphism,Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643308144718/capture/)
 
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
