@@ -3,7 +3,7 @@
 You are welcome to Fardad's classes as a guest by **using your real Seneca Name** (what is on your student card, otherwise you will be kicked out).
 
 Click on the link below to join: (See [my schedule](#fardads-schedule) for lecture times)<br />
-[OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=1JrH__ibJj59kxhCqxoId0POhT3XUtOqMk2vFLHJwBs&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1643308144678&u=senecacollege)
+[OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=NkN1ToN6bjt4nG4YtdTYfOtXQRUpFGljqthbfCKfHUo&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1643736716944&u=senecacollege)
 ## Recordings of Previous Sessions
 
 - [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
