@@ -12,7 +12,7 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 - [Jan 25 - Classes and Scoped Enumerations and moving](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643132193026/capture/)
 - [Jan 27 - Inheritance and Inclusion Polymorphism,Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643308144718/capture/)
 - [Feb 01 - Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643736716981/capture/)
-
+- [Feb 03 - Expressions and Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643912630350/capture/)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|-----|-----|-----|------|------|
