@@ -3,7 +3,7 @@
 You are welcome to Fardad's classes as a guest by **using your real Seneca Name** (what is on your student card, otherwise you will be kicked out).
 
 Click on the link below to join: (See [my schedule](#fardads-schedule) for lecture times)<br />
-[OOP345 active session by Fardad](https://connect.rna2.blindsidenetworks.com/invite/to?c=m8B9eUwhL5Wsxn3NzGKNy2quQ3ug_Z19ReDKf-mE8Uo&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1644341439820&u=senecacollege)
+[OOP345 active session by Fardad (Functions Exceptions](https://connect.rna2.blindsidenetworks.com/invite/to?c=qVwb5V9dGrvdt0H96z7KD34_IcMvlSvScsSkXKAkmEY&m=ad5bb42381dda16d4189ac34da7f050630d12ffc&t=1644517431533&u=senecacollege)
 ## Recordings of Previous Sessions
 
 - [Jan 13 - Week 1](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1642097916896/capture/)
@@ -13,6 +13,7 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 - [Jan 27 - Inheritance and Inclusion Polymorphism,Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643308144718/capture/)
 - [Feb 01 - Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643736716981/capture/)
 - [Feb 03 - Expressions and Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643912630350/capture/)
+- [Feb 08 - Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1644341439867/capture/)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|-----|-----|-----|------|------|
