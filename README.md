@@ -14,6 +14,7 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 - [Feb 01 - Templates](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643736716981/capture/)
 - [Feb 03 - Expressions and Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1643912630350/capture/)
 - [Feb 08 - Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1644341439867/capture/)
+- [Feb 10 - Functions](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1644517431574/capture/)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|-----|-----|-----|------|------|
