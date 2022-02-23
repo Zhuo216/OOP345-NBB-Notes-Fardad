@@ -16,6 +16,8 @@ Click on the link below to join: (See [my schedule](#fardads-schedule) for lectu
 - [Feb 08 - Compositions, Aggregations, and Associations](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1644341439867/capture/)
 - [Feb 10 - Functions](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1644517431574/capture/)
 - Feb 15 - Functions Continued [Part 1](https://youtu.be/i6QPQ8V9kP4) [Part 2](https://youtu.be/1AKXu2kdoI4)
+- [Feb 17 - Container, Standard LIbrary](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1645122592323/capture/)
+- [Feb 22 - Review and Midterm talk](https://recordings.rna2.blindsidenetworks.com/senecacollege/5862b2201c1a44716c0655a08b647ecfb67112da-1645551367795/capture/)
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
 |--------|-------------|-----|-----|-----|------|------|
